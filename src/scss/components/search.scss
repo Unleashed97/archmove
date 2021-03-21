@@ -1,0 +1,22 @@
+.search{
+    margin-right: 20px;
+
+    &__input{
+        display: none;
+        padding: 13px 24px;
+        border-radius: 4px;
+        border: 0;
+        background-color: lighten($red, 20%);
+    }
+
+    &__button{
+        font-size: 18px;
+        border: 0;
+        background-color: transparent;
+        transition: color .2s linear;
+
+        &:hover{
+            color: $red;
+        }
+    }
+}

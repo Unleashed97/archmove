@@ -1,0 +1,18 @@
+.header{
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        margin: 28px 0px;
+        font-size: 14px;
+    }
+
+    &__left, &__right{
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo{
+        margin-right: 30px;
+    }
+
+}

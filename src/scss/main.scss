@@ -28,4 +28,34 @@ body{
     margin: 0 auto;
 }
 
+.btn{
+    padding: 13px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 10px;
+    transition: background .2s linear;
+
+    &:hover{
+        background-color: lighten($red, 20%);
+    }
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+    &--red{
+        background-color: $red;
+        &:hover{
+            background-color: darken($red, 10%);
+        }
+    }
+}
+
+// button
+
 // Components
+@import "components/container";
+@import "components/header";
+@import "components/nav";
+@import "components/search";
