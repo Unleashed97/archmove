@@ -33,13 +33,21 @@
         flex-direction: column;
     }
 
-    &__title-wrapper{
+    &__title-container{
         width: 100%;
         display: flex;
         justify-content: flex-end;
+        margin-bottom: 47px;
+    }
+
+    &__title-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 68%;
 
         & .section__title{
-            width: 68%;
+            margin-bottom: 0;
         }
     }
 
@@ -57,6 +65,7 @@
     &__content{
         display: flex;
         justify-content: space-between;
+        position: relative;
     }
 
     &__text-block{

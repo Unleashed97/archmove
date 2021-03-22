@@ -28,7 +28,7 @@
 
     &__footer{
         display: flex;
-
+        justify-content: space-between;
     }
     &__author{
         font-size: 16px;
@@ -36,7 +36,4 @@
             font-weight: 700;
         }
     }
-
-
-
 }

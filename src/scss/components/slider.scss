@@ -1,0 +1,56 @@
+.slider{
+    max-width: 100%;
+    margin-left: 22.5%;
+
+    &__buttons{
+        display: flex;
+    }
+
+    &__buttons2{
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+    }
+    &__prev, &__prev2, &__next, &__next2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        background-color: #f0f0f0;
+        color: black;
+        border-radius: 4px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-color .2s linear;
+        
+        &:hover{
+            background-color: darken(#f0f0f0, 10%);
+            color: $red;
+        }
+
+        &.active{
+            background-color: darken(#f0f0f0, 10%);
+            color: $red;
+        }
+
+        &.swiper-button-disabled{
+            color: #ccc;
+        }
+
+    }
+
+    &__prev, &__prev2{
+        margin-right: 10px;
+    }
+
+    &__slide{
+        img{
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
