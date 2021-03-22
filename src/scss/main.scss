@@ -9,6 +9,8 @@ html{
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 *,
@@ -54,8 +56,18 @@ body{
 
 // button
 
+
+// text-center
+.centered{
+    text-align: center;
+}
 // Components
 @import "components/container";
 @import "components/header";
 @import "components/nav";
 @import "components/search";
+@import "components/section";
+@import "components/text-block";
+@import "components/review";
+@import "components/partners";
+@import "components/footer";

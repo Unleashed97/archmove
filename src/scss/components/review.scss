@@ -1,0 +1,42 @@
+.review{
+    width: 70%;
+    position: relative;
+    padding-top: 10px;
+
+    &__wrapper{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__quote{
+        position: absolute;
+        left: -100px;
+        top: 0;
+        color: $red;
+        font-size: 40px;
+    }
+    &__body{
+        margin-bottom: 59px;
+    }
+
+    &__text{
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+
+
+    &__footer{
+        display: flex;
+
+    }
+    &__author{
+        font-size: 16px;
+        b{
+            font-weight: 700;
+        }
+    }
+
+
+
+}
