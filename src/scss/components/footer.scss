@@ -7,4 +7,18 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    // MEDIA
+    @media (max-width: $tablet){
+        &__inner{
+            justify-content: center;
+            padding: 40px;
+        }
+    }
+
+    @media (max-width: $mobile){
+        &__inner{
+            padding: 20px;
+        }
+    }
 }

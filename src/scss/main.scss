@@ -36,6 +36,7 @@ body{
     border-radius: 4px;
     text-decoration: none;
     color: inherit;
+    text-align: center;
     transition: background .2s linear;
 
     &:hover{
@@ -51,7 +52,7 @@ body{
 
     // MEDIA
     @media (max-width: $laptop){
-        padding: 6px 10px;
+        
     }
 }
 

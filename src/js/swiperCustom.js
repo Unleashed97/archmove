@@ -10,6 +10,21 @@ const swiper = new Swiper('.slider1', {
       nextEl: '.slider__next',
       prevEl: '.slider__prev',
     },
+
+    breakpoints:{
+      991: {
+        slidesPerView: 3.7,
+        spaceBetween: 40,
+      },
+      768: {
+        slidesPerView: 3.7,
+        spaceBetween: 20,
+      },
+      480:{
+        slidesPerView: 2.7,
+        spaceBetween: 10,
+      }
+    }
   
 });
 
