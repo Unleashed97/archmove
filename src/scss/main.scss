@@ -31,19 +31,15 @@ body{
 }
 
 .btn{
+    display: block;
     padding: 13px 24px;
     border-radius: 4px;
     text-decoration: none;
     color: inherit;
-    margin-right: 10px;
     transition: background .2s linear;
 
     &:hover{
         background-color: lighten($red, 20%);
-    }
-
-    &:last-child{
-        margin-right: 0;
     }
 
     &--red{
@@ -52,14 +48,29 @@ body{
             background-color: darken($red, 10%);
         }
     }
+
+    // MEDIA
+    @media (max-width: $laptop){
+        padding: 6px 10px;
+    }
 }
 
 // button
-
+.btn-button{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
 
 // text-center
 .centered{
     text-align: center;
+}
+
+// no-scroll
+.no-scroll{
+    // position: fixed;
+    overflow: hidden;
 }
 // Components
 @import "components/container";
@@ -72,3 +83,4 @@ body{
 @import "components/partners";
 @import "components/footer";
 @import "components/slider";
+@import "components/burger";
