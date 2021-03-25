@@ -45,4 +45,10 @@
             }
         }
     }
+
+    @media (max-width: $mobile-landscape) and (max-height: $mobile-landscape){
+        &__inner{
+            margin: 10px;
+        }
+    }
 }

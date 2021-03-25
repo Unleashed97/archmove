@@ -24,4 +24,8 @@
     @media (max-width: $tablet){
         display: block;
     }
+
+    @media (max-width: $mobile-landscape) and (max-height: $mobile-landscape) {
+        top: 10px;
+    }
 }
