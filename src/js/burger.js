@@ -7,5 +7,11 @@ const burger = ()=>{
         nav.classList.toggle('active');
         document.body.classList.toggle('no-scroll')
     })
+
+    if(window.screen.width > 768){
+        document.body.classList.remove('no-scroll')
+        nav.classList.remove('active');
+        header.classList.remove('active')
+    }
 }
 burger();
