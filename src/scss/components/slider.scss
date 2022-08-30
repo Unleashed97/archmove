@@ -1,6 +1,12 @@
 .slider{
-    max-width: 100%;
-    margin-left: 22.5%;
+    width: 100%;
+    overflow: hidden;
+
+    &__wrapper{
+        max-width: 1275px;
+        overflow: hidden;
+        margin-left: auto;
+    }
 
     &__buttons{
         display: flex;

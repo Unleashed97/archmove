@@ -3,6 +3,11 @@
     position: relative;
     padding-top: 10px;
 
+    @media (max-width: $mobile){
+        padding-top: 60px;
+        width: 100%;
+    }
+
     &__wrapper{
         display: flex;
         justify-content: flex-end;
@@ -14,21 +19,35 @@
         top: 0;
         color: $red;
         font-size: 40px;
+
+        @media (max-width: $mobile){
+            left: 0;
+        }
     }
     &__body{
         margin-bottom: 59px;
+
+        @media (max-width: $mobile){
+            margin-bottom: 30px;
+        }
     }
 
     &__text{
         font-size: 32px;
         font-weight: 300;
         line-height: 1.6;
+
+        @media (max-width: $tablet){
+            font-size: 20px;
+        }
+
     }
 
 
     &__footer{
         display: flex;
         justify-content: space-between;
+        margin-right: 120px;
     }
     &__author{
         font-size: 16px;

@@ -4,7 +4,6 @@ const swiper = new Swiper('.slider1', {
     loop: false,
     slidesPerView: 3.7,
     spaceBetween: 40,
-    initialSlide: 0,
     // Navigation arrows
     navigation: {
       nextEl: '.slider__next',
@@ -22,7 +21,11 @@ const swiper = new Swiper('.slider1', {
       },
       480:{
         slidesPerView: 2.7,
-        spaceBetween: 10,
+        spaceBetween: 20,
+      },
+      0:{
+        slidesPerView: 1.2,
+        spaceBetween: 20,
       }
     }
   
